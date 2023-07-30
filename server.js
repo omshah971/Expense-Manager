@@ -4,6 +4,7 @@ const morgan = require("morgan");
 const dotenv = require("dotenv");
 const colors = require("colors");
 const connectDb = require("./config/connectDb");
+const path = require("path");
 // config dot env file
 dotenv.config();
 
